@@ -9,7 +9,7 @@ export class RpcHandler {
         this.url = url;
         this.config = {
             headers: { "content-type": "text/plain" },
-            auth: {username: "komibomi", password: "Pm/pd7ZLvBj+gXD6lUY6XU+1rlnAF6WVs/60AipQSBg="}
+            auth: {username: "zcash.conf/rpc user", password: "zcash.conf/rpc pass"}
         };
     }
 

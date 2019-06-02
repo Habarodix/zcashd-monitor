@@ -6,7 +6,7 @@ export class StatusService {
     private rpcHandler: RpcHandler;
 
     constructor() {
-        this.rpcHandler = new RpcHandler("http://patdreis.ddns.net:8232");
+        this.rpcHandler = new RpcHandler("http://localhost:8232");
     }
 
     public async getInfo(): Promise<any> {
